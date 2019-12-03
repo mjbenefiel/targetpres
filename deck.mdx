@@ -4,7 +4,7 @@ import { FullScreenCode, Invert, Split } from 'mdx-deck/layouts'
 export { default as theme } from './theme'
 
 <Head>
-  <title>Adobe Test & Target Presentation</title>
+  <title>Adobe Target Presentation</title>
   <meta itemprop="name" content="Presentation Title" />
   <meta itemprop="description" content="My demo for a great company" />
 </Head>
@@ -19,7 +19,8 @@ export { default as theme } from './theme'
 
 
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'8vw', fontWeight: 'bold' }}>Welcome!</ol>
-<ol style={{ margin: '25px 0', color:'#36CAD9', fontSize:'4vw' }}>Michael Benefiel</ol>
+<ol style={{ margin: '25px 0', color:'#36CAD9', fontSize:'4vw', fontStyle: 'italic' }}>Adobe Target Overview</ol>
+<ol style={{ margin: '25px 0', color:'#36CAD9', fontSize:'3vw' }}>Michael Benefiel</ol>
 <ol style={{ margin: '25px 0', color:'#36CAD9', fontSize:'2vw' }}>December 5, 2019</ol>
 
 
@@ -39,43 +40,15 @@ export { default as theme } from './theme'
 
 ---
 
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target helps visually create and manage A/B tests and rules-based targeting activities. It can be used for marketing offers, personalization and UX testing; allowing marketers to figure out which of the offers, experiences & messages are truly engaging the customers. It includes a user interface, built-in best practices, and robust optimization tools for following site visitors.</ol>
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
+<ol style={{ margin: '5px 0', color:'#0B1C24', fontSize:'6vw', fontWeight: 'bold' }}>Adobe Target</ol>
 
 ---
 
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Key Concepts</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>What is Adobe Target?</ol>
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Activity: determines the experiences a site visitor might encounter.</ol>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and one that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met, such as between specific dates, or to start when the activity is approved and to end when it is deactivated.</ol>
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Key Concepts</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Experiences: defines the content that displays on your page, as well as other page elements, such as links.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target is a rule-based testing and targeting tool, which can integrate with Analytics & create reports that can be used for making marketing offers, personalization and UX testing; allowing marketers to figure out which of the offers, experiences & messages are truly engaging the customers.</ol>
     
   </Appear>
 </ul>
@@ -92,25 +65,8 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Offers: the content displayed on your webpages during campaigns or activities.</ol>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>When you test your webpages, you measure the success of each experience with different offers in your locations. An offer can contain different types of content, including: image, text, html, link, button. For example, a webpage might display either of two offers, depending on whether the visitor has been to your site before. An experience determines which content displays when particular conditions are met.</ol>
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
-
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Key Concepts</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Audiences: define the target for your activity and are used anywhere where targeting is available. </ol>
-   
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Activity: Determines the experiences a site visitor might encounter.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and one that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met, such as between specific dates, or to start when the activity is approved and to end when it is deactivated.</ol>
   </Appear>
 </ul>
 
@@ -125,7 +81,58 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>A/B Testing: an activity type that compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Experiences: Defines the content that displays on your page, as well as other page elements, such as links.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>For example, one experience might have one set of links across the top of the page, where another experience has different links or the same links arranged in a different order. You might want to test whether one image provides more lift than another, or whether an ad is more likely to be clicked near the top of your page or in a different location.</ol>
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Key Concepts (cont'd)</ol>
+
+<ul>
+  <Appear>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Offers: The content displayed on your webpages during campaigns or activities.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>When you test your webpages, you measure the success of each experience with different offers in your locations. An offer can contain different types of content, including: image, text, html, link, button. For example, a webpage might display either of two offers, depending on whether the visitor has been to your site before. An experience determines which content displays when particular conditions are met.</ol>
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Key Concepts (cont'd)</ol>
+
+<ul>
+  <Appear>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Audiences: Define the target for your activity and are used anywhere where targeting is available. </ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Target audiences are a defined set of visitor criteria. Offers can be targeted to specific audiences (or segments). Only visitors who belong to that audience see the experience that is targeted to them.</ol>
+  <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>For example, you might target an activity to an audience made up of visitors who use a particular browser or operating system.</ol>
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Key Concepts (cont'd)</ol>
+
+<ul>
+  <Appear>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>A/B Testing: An activity type that compares two or more versions of your site's content to see which version best improves your conversions during a pre-specified test period.</ol>
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>An A/B test (sometimes referred to as an A/B...N test) compares two or more versions of a web site's content to see which best lifts conversions, sales, or other identified metrics. Use an A/B test to compare changes to a page against the default page design to determine which experience produces the best results.</ol>
   </Appear>
 </ul>
@@ -143,9 +150,9 @@ export { default as theme } from './theme'
 <ul>
   <Appear>
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target integrates with websites by means of one of two JavaScript libraries: at.js or mbox.js</ol>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The at.js library is the new implementation library for Target. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The at.js library is the new implementation library for Target. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications. The at.js library also includes the components that were included in target.js, so there is no longer a call to target.js. Default Adobe Target Marketplace Version: at.js 1.8.0</ol>
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The mbox.js library is the legacy implementation library for Target. The mbox.js library is still supported, but there will be no feature updates.</ol>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Mbox.js calls another JavaScript file, target.js. Target.js is hosted by Adobe, automatically updated by Adobe and is responsible for DOM Manipulation.</ol>
+   
 
   </Appear>
 </ul>
@@ -162,7 +169,7 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Each time a visitor requests a page that has been optimized for Target, a request is sent to the targeting system to determine what content to serve to a visitor. This process occurs in real-time — every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served that each site visitor is most likely to respond to, interact with, and ultimately purchase, to maximize response rates, acquisition rates, and revenue.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Each time a visitor requests a page that has been optimized for Target, a request is sent to the targeting system to determine what content to serve to a visitor. This process occurs in real-time — every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served so that each site visitor is most likely to respond to, interact with, and ultimately purchase, to maximize response rates, acquisition rates, and revenue.</ol>
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>You must reference the Target JavaScript library file on every page on your site.</ol>
     
   </Appear>
@@ -180,7 +187,7 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The main business drivers behind the use of Test & Target at this point is conversion optimization. It provides intuitive test reports based on different segments such as new and returning users. The tool can be plugged-in with other marketing cloud products as well as other third party marketing tools.</ol> 
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The main business drivers behind the use of Adobe Target at this point is conversion optimization. It provides intuitive test reports based on different segments such as new and returning users. The tool can be plugged-in with other marketing cloud products as well as other third party marketing tools.</ol> 
   </Appear>
 </ul>
 
@@ -211,63 +218,9 @@ export { default as theme } from './theme'
 ```
 
 ---
+<ol style={{ margin: '5px 0', color:'#0B1C24', fontSize:'6vw', fontWeight: 'bold' }}>Adobe Target | Tealium</ol>
+---
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>The mbox</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>An mbox is a “marketing box,” which is an area on a web page used by Adobe Target to show different content to visitors in a campaign. Marketers can replace blocks of content in the mbox with dynamic content that they’ve created in Adobe Target.  The content displayed inside an mbox during a campaign is called an offer.</ol>  
-      <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target has two methods that can be used to modify content: Place Regional mboxes in pages in the exact locations where content will be modified. Place a Global mbox create statement in the page and define all logic within the Adobe TnT interface as to which content will be modified.</ol>  
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
-
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Using Global mbox with utag.sync.js</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The Global mbox approach is a synchronous implementation, while keeping the rest of the Tealium implementation asynchronous to mitigate risk. Once set up, within the utag.sync.js you will have pasted the mbox.js file and added a small snippet, or two small snippets, to call mboxCreate().</ol>  
-
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Using Global mbox with utag.sync.js</ol>
-
-<ul>
-  <Appear>
-     
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Enable utag.sync</ol>  
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Code utag.sync into head of page</ol>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Download mbox.js</ol>  
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Locally host mbox.js</ol> 
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Configure utag.sync</ol>   
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>What is Flicker?</ol>
 
 <ul>
@@ -283,6 +236,8 @@ export { default as theme } from './theme'
 ```
 
 ---
+
+
 
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker Free</ol>
@@ -307,8 +262,8 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Eliminate flicker by taking Adobe Target module and placing within utag.sync. When the page loads, the browser will encounter the utag.sync.js file which sets the CSS visibility property of to "hidden". The content is not removed, but the browser will not render it. The layout dimensions of the hidden content are preserved, so the layout of your page is not deformed. To a visitor it will appear as though the section where the content would be displayed is blank instead. There is no flicker.</ol>  
-     
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Eliminate flicker by taking Adobe Target module and placing within utag.sync. When the page loads, the browser will encounter the utag.sync.js file which sets the CSS visibility property to "hidden". The content is not removed, but the browser will not render it. The layout dimensions of the hidden content are preserved, so the layout of your page is not deformed. To a visitor it will appear as though the section where the content would be displayed is blank instead. There is no flicker.</ol>  
+     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>When the utag.js file loads, it calls Adobe Target which in turn shows the hidden nodes.</ol>  
   </Appear>
 </ul>
 
@@ -325,9 +280,119 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The Adobe Target Content Modification extension is used with the Adobe Target tag to change the content of an HTML element and can be used to show A/B content based on a condition.The synchronous load does not use the extension.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The Adobe Target Content Modification extension is used with Adobe Target to change the content of an HTML element and can be used to show A/B content based on a condition.The synchronous load does not use the extension.</ol>  
         <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>To implement extension, set DOM ID and mbox id. Tealium will inject this extension code into utag.sync file. Need to delete fields and republish. Tealium will continue to inject in utag.sync. Scope to Adobe Target tag.   </ol>  
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>After you have enabled the publish setting, you must re-publish your profile. Republishing generates the utag.sync.js file and pushes it onto Tealium's multi-CDN infrastructure. If you do not publish after enabling the publish setting, any pa ge that references that utag.sync.js file will not be able to find it, potentially causing page load failure.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>After you have enabled the publish setting, you must re-publish your profile. Republishing generates the utag.sync.js file and pushes it onto Tealium's multi-CDN infrastructure. If you do not publish after enabling the publish setting, any page that references the utag.sync.js file will not be able to find it, potentially causing page load failure.</ol>  
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>The mbox</ol>
+
+<ul>
+  <Appear>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>An mbox is a “marketing box,” which is an area on a web page used by Adobe Target to show different content to visitors in a campaign. Marketers can replace blocks of content in the mbox with dynamic content that they’ve created in Adobe Target.  The content displayed inside an mbox during a campaign is called an offer.</ol>  
+      <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target has two methods that can be used to modify content: Place Regional mboxes in pages in the exact locations where content will be modified. Place a Global mbox create statement in the page and define all logic within the Adobe Target interface as to which content will be modified.</ol>  
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Using Global mbox with utag.sync.js</ol>
+
+<ul>
+  <Appear>
+     
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Enable utag.sync</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Code utag.sync into head of page</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Download mbox.js</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Locally host mbox.js</ol> 
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Configure utag.sync</ol>   
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+export default FullScreenCode
+
+```jsx
+var mboxjs_location = "//path/to/mbox.js";
+var global_mbox_name = "Global mbox name";
+document.write('<script src="' + mboxjs_location + '"></script>');
+document.write('<script type="text/javascript">mboxCreate("'+global_mbox_name+'")</script>');
+```
+---
+
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Pass Parameters to a global mbox</ol>
+
+<ul>
+  <Appear>
+     
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The JavaScript targetPageParams function is used to pass parameters to the global mbox. This is needed in any scenario where additional targeting/context information is to be passed into Target.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>For example, in a Recommendations activity, use the parameters to represent the current product or category that is being viewed.</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>The code to call the JavaScript function must come before the global mbox on the page, whether the global mbox is fired as a part of mbox.js or is manually included in the page code.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>You can pass in parameters to target-global-mbox using the targetPageParams() function in any of the following ways: an array, JSON object, ampersand-delimited list</ol> 
+   
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>at.js function: adobe.target.getOffer(options)</ol>
+
+<ul>
+  <Appear>
+     
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>This function fires a request to get a Target offer.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Use with adobe.target.applyOffer() to process the response or use your own success handling. The options parameter is mandatory and has a defined structure found here: https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/adobe-target-getoffer.html</ol>
+  
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+
+
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Other at.js functions</ol>
+
+<ul>
+  <Appear>
+     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>mboxCreate(). This function is available for at.js versions 1. x only. This function was deprecated with the release of at.js 2.x. This function returns default content if used with at.js 2.x. This function is built into at.js mostly to ease the transition from mbox.js to at.js. A newer alternative to mboxCreate() is adobe.target.getOffer() / adobe.target.applyOffer()</ol>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>adobe.target.triggerView (viewName, options) - at.js 2.x. This function can be called whenever a new page is loaded or when a component on a page is re-rendered. adobe.target.triggerView() should be implemented for single page applications (SPAs) in order to use the Visual Experience Composer (VEC) to create A/B Tests and Experience Targeting (XT) activities.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>adobe.target.trackEvent(options). This function fires a request to report user actions, such as clicks and conversions.</ol>
+   
   </Appear>
 </ul>
 
@@ -344,7 +409,7 @@ export { default as theme } from './theme'
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>If you’re using Adobe Experience Cloud ID service (Adobe Analytics Visitor API), Cloud ID needs to be called first. If using Adobe Target Tag and Cloud ID service tag, the experience cloud is put on top and loaded first because of its settings.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>If you’re using Adobe Experience Cloud ID service (Adobe Analytics Visitor API), Cloud ID needs to be called first. If using Adobe Target and Cloud ID service tag, the experience cloud is put on top and loaded first because of its settings.</ol>  
       <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>If adobe target module is in utag.sync, then visitor API needs to be loaded before in utag.sync. Use that as opposed to using experience cloud ID tag.</ol>  
   </Appear>
 </ul>
@@ -357,250 +422,25 @@ export { default as theme } from './theme'
 
 ---
 
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and AudienceStream</ol>
 
 
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'8vw', fontWeight: 'bold' }}>Directions</ol>
 <ul>
   <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Set up a localhost server with an alias </ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Log into TiQ and set up a Google Analytics tag (analytics.js)</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>On your localhost webpage, use Google Analytics to trigger a click event on a link </ol>
+     
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Connector doesn't load Adobe Target; it simply updates the user's Adobe profile with mapped connector data.</ol>  
+   
   </Appear>
 </ul>
 
 
----
-
-<ol style={{ margin: '5px 0', color:'#0B1C24', fontSize:'6vw', fontWeight: 'bold' }}>Project | Localhost Alias</ol>
-
----
-<ol style={{ margin: '5px 0px', color:'#36CAD9', fontSize:'8vw', fontWeight: 'bold' }}>Project</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Node environment</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Spun up Express server </ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Simple routing for demo</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Alias: www.tealiumdemo.com</ol>
-  </Appear>
-</ul>
-
----
-<img height="500px" width="750px" src="https://github.com/mjbenefiel/pres-2019-04/blob/master/domain-alias.jpg?raw=true" />
----
-
-<ol style={{ margin: '5px 0', color:'#0B1C24', fontSize:'6vw', fontWeight: 'bold' }}>Setting up GA Tag in TiQ</ol>
-
-
----
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Quick Aside</ol>
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'4vw',  }}>Logging into TiQ</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Initial Tag and UDO Installation</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Code Center</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Insert into all pages you want connected</ol>
-  </Appear>
-</ul>
-
----
-
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Setting up GA Tag</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Add GA Tag</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>GA Tracking ID and domain name</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Data Layer: data mapping</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Load Rules: all pages</ol>
-  </Appear>
-</ul>
-
----
-
-
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>GA Event Tracking</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Used Extensions: GA_Click (JS Code) and jQuery onHandler</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Scoped to fire when button/link is clicked</ol>
-  </Appear>
-</ul>
-
----
-export default FullScreenCode
-
-```jsx
- $("#demo-link").on("click", function() {
-        console.log("Handler for .click() called.");
-        ga(
-          "send",
-          "event",
-          "details_share",
-          "details_share",
-          "details_share_click"
-        );
-      });
-```
----
-<ol style={{ margin: '5px 0', color:'#00A8B6', fontSize:'6vw', fontWeight: 'bold' }}>Debugging | Verification</ol>
-
----
-
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Chrome DevTools</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>The console is your best friend</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>utag.js debug mode: document.cookie="utagdb=true"</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Verify events are firing properly</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Verify via Network tab: network log</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Fallback: Check realtime statistics on Analytics account</ol>
-  </Appear>
-</ul>
-
----
-<img height="500px" width="500px" src="https://github.com/mjbenefiel/pres-2019-04/blob/master/debug_collage.jpg?raw=true" />
 
 ```notes
-- <img height="500px" width="500px" src="/debug_collage.jpg" />
+- Create speaker notes in fenced code blocks
 ```
 
 ---
 
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'8vw', fontWeight: 'bold' }}>AudienceStream</ol>
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'4vw' }}>Exercise #1</ol>
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Utilizing https://www.americangirl.com, create a category browser attribute when a visitor has visited a category page five or more times in their lifetime.</ol>
-        
-  </Appear>
-</ul>
-
+<ol style={{ margin: '5px 0', color:'#959BA1', fontSize:'6vw', fontWeight: 'bold' }}>Questions?</ol>
 ---
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Implementation</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>The console is your best friend: verify page_type (UDO)</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Once in AudienceStream, click "Attributes": add attribute - visitor scope</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create page_type: category "number" attribute: increment category page visits by one</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create "Category Browser" Badge attribute to be assigned after threshold is met</ol>
-  </Appear>
-</ul>
-
----
-<img height="500px" width="500px" src="https://github.com/mjbenefiel/pres-2019-04/blob/master/exercise1_collage.jpg?raw=true" />
-
-```notes
-- <img height="500px" width="500px" src="/exercise1_collage.jpg" />
-```
----
-
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'8vw', fontWeight: 'bold' }}>AudienceStream</ol>
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'4vw' }}>Exercise #2</ol>
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create a favorite product attribute when a visitor has viewed a product five or more times.</ol>
-        
-  </Appear>
-</ul>
----
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Implementation</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create Product SKU "set of strings" attribute</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create page_type: product "number" attribute to increment page visits by one</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create "Favorite Product" Badge attribute to be assigned if someone views product five or more times</ol>
-    
-  </Appear>
-</ul>
----
-<img height="500px" width="500px" src="https://github.com/mjbenefiel/pres-2019-04/blob/master/exercise2_collage.jpg?raw=true" />
-
-```notes
-- <img height="500px" width="500px" src="/exercise1_collage.jpg" />
-```
----
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'8vw', fontWeight: 'bold' }}>Extra Innings</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Can you walk us through how to trigger a basic modal on your webpage?</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>We have a DoubleClick Floodlight tag that we only want to fire once per session. Is there a way to do this in Tealium?</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Create an audience based off of information available to the site and explain what you would use this audience for.</ol>
-  
-  </Appear>
-</ul>
----
-<ol style={{ margin: '5px 0', color:'#00A8B6', fontSize:'6vw', fontWeight: 'bold' }}>Triggering a basic modal</ol>
----
-<ol style={{ margin: '5px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Walk Through</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Once in TiQ, add Modal Offer Extension</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Block modal from firing on DOM Ready</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Add JavaScript Code Extension</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Add your custom action to website and extension</ol>
-  </Appear>
-</ul>
-
----
-<ol style={{ margin: '25px 0px', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Delayed Modal Trigger</ol>
-<img height="300px" width="300px" src="https://github.com/mjbenefiel/pres-2019-04/blob/master/ec1_collage.jpg?raw=true" />
-
-```notes
-- <img height="500px" width="500px" src="/ec1_collage.jpg" />
-```
----
-<ol style={{ margin: '5px 0', color:'#00A8B6', fontSize:'6vw', fontWeight: 'bold' }}>DoubleClick Floodlight Tag</ol>
----
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Fire once per session?</ol>
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Tealium now sets a "Session Start" cookie called "utag_main__ss." This is set to "1" on the first page of the visit and "0" on subsequent pages</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Add a Data Source called "utag_main__ss" and set the Type to "First Party Cookie"</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Use this in the Load Rule to check if the cookie equals "1"</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>This requires version 4.26 or later of the utag.js file</ol>
-  </Appear>
-</ul>
----
-<ol style={{ margin: '5px 0', color:'#00A8B6', fontSize:'6vw', fontWeight: 'bold' }}>Creating an Audience</ol>
----
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Implementation</ol>
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Add audience</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Keep parameters simple</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Add connector</ol>
-    
-  </Appear>
-</ul>
----
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>My example</ol>
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>I created a "Category Browsers" audience for individuals who have viewed a category page five or more times. I'd set up a connector with Facebook Ads and target Category Browsers with advertisements tailored with the products of the category they viewed five or more times (ie, books, dolls, clothing, etc.)</ol>
-  </Appear>
-</ul>
----
-<img height="500px" width="600px" src="https://github.com/mjbenefiel/pres-2019-04/blob/master/category_audience.jpg?raw=true" />
-
-```notes
-- <img height="500px" width="500px" src="/category_audience.jpg" />
----
-<ol style={{ margin: '5px 0', color:'#00A8B6', fontSize:'6vw', fontWeight: 'bold' }}>Questions?</ol>
----
-<ol style={{ margin: '5px 0', color:'#007CC2', fontSize:'6vw', fontWeight: 'bold' }}>Thank you for this opportunity</ol>
-<ul>
-  <Appear>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Slideshow: https://mjb-presentation.netlify.com</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>Portfolio: https://mjbenefiel.github.io</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>GitHub: https://github.com/mjbenefiel</ol>
-    <ol style={{ margin: '25px 0', color:'#959BA1', fontSize:'3vw' }}>LinkedIn: https://www.linkedin.com/in/michaeljbenefiel</ol>
-  </Appear>
-</ul>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'6vw', fontWeight: 'bold' }}>Quiz Time!</ol>
