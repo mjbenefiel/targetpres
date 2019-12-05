@@ -230,46 +230,11 @@ export { default as theme } from './theme'
 ---
 <ol style={{ margin: '5px 0', color:'#0B1C24', fontSize:'6vw', fontWeight: 'bold' }}>Adobe Target | Tealium</ol>
 ---
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>The mbox</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>An mbox is a “marketing box,” which is an area on a web page used by Adobe Target to show different content to visitors in a campaign. Marketers can replace blocks of content in the mbox with dynamic content that they’ve created in Adobe Target.  The content displayed inside an mbox during a campaign is called an offer.</ol>  
-      <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target has two methods that can be used to modify content: Place Regional mboxes in pages in the exact locations where content will be modified. Place a Global mbox create statement in the page and define all logic within the Adobe Target interface as to which content will be modified.</ol>  
-  </Appear>
-</ul>
 
 
 
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>What is Flicker?</ol>
-
-<ul>
-  <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Flicker is the occurrence of default content being momentarily displayed to the visitor before it is replaced with the content you intended to show the visitor, making it seem to the visitor that the content flickered. Visitors can sometimes interpret flicker as a problem with the site, potentially causing the visitor to lose confidence in the site or brand. Flicker can also cause visitor dissatisfaction if, for example, they see a discount they like "flicker away" to be replaced with a lesser discount. Flicker is a symptom of encountering a delay in loading the content displayed, also called "tests", asynchronously.</ol>  
-  </Appear>
-</ul>
-
-
-
-```notes
-- Create speaker notes in fenced code blocks
-```
-
----
-
-<center><img height="500px" src="https://github.com/mjbenefiel/targetpres/blob/master/at1flickerworkflow.png?raw=true" /></center>
----
-
-
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker Free</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker free implementation</ol>
 
 <ul>
   <Appear>
@@ -287,7 +252,28 @@ export { default as theme } from './theme'
 ---
 
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker Free: First Approach</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>What is flicker?</ol>
+
+<ul>
+  <Appear>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Flicker is the occurrence of default content being momentarily displayed to the visitor before it is replaced with the content you intended to show the visitor, making it seem to the visitor that the content flickered. Visitors can sometimes interpret flicker as a problem with the site, potentially causing the visitor to lose confidence in the site or brand. Flicker can also cause visitor dissatisfaction if, for example, they see a discount they like "flicker away" to be replaced with a lesser discount. Flicker is a symptom of encountering a delay in loading the content displayed, also called "tests", asynchronously.</ol>  
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+
+<center><img height="500px" src="https://github.com/mjbenefiel/targetpres/blob/master/flickerworkflow.png?raw=true" /></center>
+<ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'1.5vw', fontStyle: "italic" }}>at.js 2.x 'hide body' and 'show body' calls</ol>  
+---
+
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker free: first approach</ol>
 
 <ul>
   <Appear>
@@ -309,7 +295,7 @@ export { default as theme } from './theme'
 <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'1.5vw', fontStyle: "italic" }}>Client implementation. Within utag.sync.</ol>  
 ---
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker Free: Second Approach</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Flicker free: second approach</ol>
 
 <ul>
   <Appear>
@@ -334,11 +320,28 @@ export { default as theme } from './theme'
 <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'1.5vw', fontStyle: "italic" }}>Portion of code that is injected from extension into utag.sync.</ol>  
 ---
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Using Global mbox with utag.sync.js</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>The mbox</ol>
 
 <ul>
   <Appear>
-    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>This method allows you to keep your Tealium implementation asynchronous, but load the Global mbox synchronously.</ol>  
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>An mbox is a “marketing box,” which is an area on a web page used by Adobe Target to show different content to visitors in a campaign. Marketers can replace blocks of content in the mbox with dynamic content that they’ve created in Adobe Target.  The content displayed inside an mbox during a campaign is called an offer.</ol>  
+      <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Adobe Target has two methods that can be used to modify content: Place regional mboxes in pages in the exact locations where content will be modified. Place a global mbox create statement in the page and define all logic within the Adobe Target interface as to which content will be modified.</ol>  
+  </Appear>
+</ul>
+
+
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Using global mbox with utag.sync.js</ol>
+
+<ul>
+  <Appear>
+    <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>This method allows you to keep your Tealium implementation asynchronous, but load the global mbox synchronously.</ol>  
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Enable utag.sync</ol>  
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Code utag.sync into head of page</ol>
     <ol style={{ margin: '20px 0', color:'#959BA1', fontSize:'2vw' }}>Download mbox.js</ol>  
@@ -360,7 +363,7 @@ export { default as theme } from './theme'
 ---
 
 <ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'4vw' }}>Adobe Target and TiQ (cont'd)</ol>
-<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Pass Parameters to a global mbox</ol>
+<ol style={{ margin: '5px 0', color:'#36CAD9', fontSize:'3vw', fontStyle: 'italic' }}>Pass parameters to a global mbox</ol>
 
 <ul>
   <Appear>
